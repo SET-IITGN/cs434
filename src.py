@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-		y=6;
+		y=1;
 		if(y<0):
 			if (y>0): y=3;
 			else: y=0;
