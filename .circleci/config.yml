@@ -20,7 +20,7 @@ jobs:
       # Replace this with steps to build a package, or executable
       - run:
           name: Build an artifact
-          command: python3 src.py
+          command: python3 src.py; javac $(git ls-files '*.py')
       - store_artifacts:
           path: example.txt
   deploy:
