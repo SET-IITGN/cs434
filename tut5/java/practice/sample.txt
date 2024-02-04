@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.applet.*;
+public class shape extends Applet
+{
+	public void paint(Graphics g)
+	{
+		g.drawRect(100,70,100,70);
+		g.drawOval(230,150,230,150);
+	}
+}		
